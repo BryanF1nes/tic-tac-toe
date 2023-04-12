@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+.tic-tac-toe {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pick-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.X {
+    background-color: #3a78c8;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.O {
+    background-color: #c8773a;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.gameboard {
+    display: grid;
+    background-color: #f4f4f4;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 400px;
+    width: 400px;
+    gap: 10px;
+}
+
+.gameboard-tile {
+    background-color: #7f7f7f;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    color: white;
+}
