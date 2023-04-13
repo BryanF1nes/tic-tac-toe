@@ -65,3 +65,7 @@ button {
     font-size: 100px;
     color: white;
 }
+
+.gameboard-tile:hover {
+    cursor: pointer;
+}
