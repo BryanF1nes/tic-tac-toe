@@ -37,6 +37,11 @@ button {
     color: white;
     font-weight: 500;
     font-size: 18px;
+    cursor: pointer;
+}
+
+.X:active {
+    background-color: #458eed;
 }
 
 .O {
@@ -44,6 +49,11 @@ button {
     color: white;
     font-weight: 500;
     font-size: 18px;
+    cursor: pointer;
+}
+
+.O:active {
+    background-color: #ef9048;
 }
 
 .gameboard {
